@@ -1,0 +1,25 @@
+{
+  "name": "webfinger.js",
+  "version": "0.1.0",
+  "homepage": "https://github.com/vhpoet/webfinger.js",
+  "authors": [
+    "Vahe Hovhannisyan <vhpoet@gmail.com>"
+  ],
+  "description": "Library for easily querying a useraddress for it's webfinger record",
+  "main": "src/webfinger.js",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "webfinger",
+    "hostmeta"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
