@@ -89,14 +89,9 @@ if (typeof window === 'undefined') {
 
     var result = {
       properties: {},
-      links: {},
+      links: links,
       JRD: JRD // raw webfinger JRD
     };
-
-    // process links
-    for (var i = 0, len = links.length; i < len; i = i + 1) {
-      result.links[links[i].rel] = links[i].href;
-    }
 
     // process properties
     var props = JSON.parse(JRD).properties;
